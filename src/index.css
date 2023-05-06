@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.wallpaper {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)),
+    url("./assets/ecomWallpaper.jpg");
+  background-size: cover;
+}
+* {
+  scroll-behavior: smooth;
+  transition: all;
+  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Ysabeau", sans-serif;
+}
+
+#root {
+  padding: 2;
+}
