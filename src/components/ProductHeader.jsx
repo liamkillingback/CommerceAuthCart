@@ -5,7 +5,7 @@ import { StarIcon } from "@heroicons/react/20/solid";
 import { CSpinner } from "@coreui/react";
 import axios from "axios";
 import { Product } from "./index.js";
-const URL = "http://localhost:8080/products/all";
+const URL = "https://ecomtestserver.onrender.com/products/all";
 
 const ProductHeader = () => {
   const [products, setProducts] = useState([{}]);
