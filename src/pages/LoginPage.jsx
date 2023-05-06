@@ -8,8 +8,8 @@ const LoginPage = () => {
   const [isRegister, setIsRegister] = useState(false);
   const [submitting, setSubmitting] = useState("Submit");
   const URL = isRegister
-    ? "http://localhost:8080/auth/register"
-    : "http://localhost:8080/auth/login";
+    ? "https://ecomtestserver.onrender.com:8080/auth/register"
+    : "https://ecomtestserver.onrender.com:8080/login";
   const dispatch = useDispatch();
   const navigate = useNavigate();
 
